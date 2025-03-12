@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClangTidy" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="clangTidyCheckOptions">
+        <list>
+          <ClangTidyCheckOption />
+        </list>
+      </option>
+      <option name="clangTidyChecks" value="-*,clang-analyzer-*,google-*,llvm-*,mpi-*,readability-*,bugprone-*,-bugprone-signal-handler,-bugprone-narrowing-conversions,-bugprone-redundant-branch-condition,-bugprone-exception-escape,-bugprone-shared-ptr-array-mismatch,-bugprone-implicit-widening-of-multiplication-result,-bugprone-signed-char-misuse,-bugprone-bool-pointer-implicit-conversion,-bugprone-infinite-loop,-bugprone-easily-swappable-parameters,-bugprone-stringview-nullptr,cert-err52-cpp,cert-err60-cpp,cert-err34-c,cert-str34-c,cert-dcl21-cpp,cert-msc50-cpp,cert-msc51-cpp,cert-dcl58-cpp,cert-flp30-c,cppcoreguidelines-pro-type-member-init,cppcoreguidelines-slicing,cppcoreguidelines-interfaces-global-init,cppcoreguidelines-pro-type-static-cast-downcast,cppcoreguidelines-narrowing-conversions,hicpp-multiway-paths-covered,hicpp-exception-baseclass,misc-unconventional-assign-operator,misc-misplaced-const,misc-new-delete-overloads,misc-non-copyable-objects,misc-throw-by-value-catch-by-reference,misc-uniqueptr-reset-release,openmp-use-default-none,performance-*,-performance-no-int-to-ptr,portability-simd-intrinsics,-google-build-using-namespace,-google-explicit-constructor" />
+    </inspection_tool>
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.13" />
+            <item index="1" class="java.lang.String" itemvalue="3.7" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
