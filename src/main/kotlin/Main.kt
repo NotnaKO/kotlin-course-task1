@@ -35,9 +35,9 @@ class EmulatedClient : PromptClient {
     }
 
     private fun getRandomString(length: Long): String {
-        val allowedChars = ('A'..'Z') + ('a'..'z') + ('0'..'9')
+        val chars = ('A'..'Z') + ('a'..'z') + ('0'..'9')
         return (1..length)
-            .map { allowedChars.random() }
+            .map { chars.random() }
             .joinToString("")
     }
 }
